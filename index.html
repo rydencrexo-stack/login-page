@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="main-container">
+
+        <!-- LEFT -->
+        <div class="container-left">
+            <h1>Welcome to Reena's Collection</h1>
+            <h5>Best products at low price.</h5>
+            <h3>New update Available</h3>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="container-right">
+
+            <!-- SIGN UP -->
+            <div id="signup-form">
+                <h1>Create Account</h1>
+
+                <div class="container-input">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Email Address">
+                        <i class='bx bxs-envelope'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password">
+                        <i class='bx bxs-lock'></i>
+                    </div>
+                </div>
+
+                <div class="privacy-text">
+                    <div class="text">
+                        <input type="checkbox">
+                        <p>I agree to the <span>terms of services</span> and <span>privacy policy</span></p>
+                    </div>
+                </div>
+
+                <div class="input-btn">
+                    <button>Sign Up</button>
+                </div>
+                <div class="social-link">
+                        <i class="bx bxl-google"></i>
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-github"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-youtube"></i>
+                    </div>
+
+
+                <div class="another-option">
+                    <p>Already have an account?
+                        <span id="show-signin">Sign in</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- SIGN IN -->
+            <div id="signin-form" style="display:none;">
+                <h1>Sign In</h1>
+
+                <div class="container-input">
+                    <div class="input-box">
+                        <input type="email" placeholder="Email Address">
+                        <i class='bx bxs-envelope'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password">
+                        <i class='bx bxs-lock'></i>
+                    </div>
+                </div>
+
+                <div class="input-btn">
+                    <button>Sign In</button>
+                </div>
+                <div class="social-link">
+                        <i class="bx bxl-google"></i>
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-github"></i>
+                        <i class="bx bxl-instagram"></i>
+                    </div>
+
+
+                <div class="another-option">
+                    <p>Don’t have an account?
+                        <span id="show-signup">Create account</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
